@@ -1,15 +1,17 @@
 # mkw-recomp-discord
 
+[![Latest release](https://img.shields.io/github/v/release/Meti0X7CB/mkw-recomp-discord)](https://github.com/Meti0X7CB/mkw-recomp-discord/releases/latest)
+[![License: MIT](https://img.shields.io/github/license/Meti0X7CB/mkw-recomp-discord)](LICENSE)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6)
+![PowerShell 7](https://img.shields.io/badge/PowerShell-7-5391FE)
+
 Discord Rich Presence for [MKW Recomp](https://github.com/adriadam10/mkw-recomp), the PC port of Mario Kart World.
 
 MKW Recomp doesn't set a Discord status itself. This small PowerShell script starts the game and shows what you're doing on your Discord profile. The status clears when you close the game.
 
-```
-Playing Mario Kart World
-Racing
-MKW Recomp 0.1.15 · 12:34 elapsed
-[ MKW Recomp on GitHub ]
-```
+<p align="center"><img src="docs/status.png" alt="Discord profile showing: Playing Mario Kart World, Racing, MKW Recomp 0.1.15, 13:03 elapsed" width="418"></p>
+
+<p align="center"><sub>How it looks on your own profile. Other people also see a <b>MKW Recomp on GitHub</b> button under it.</sub></p>
 
 - **What you're doing:** *Starting up*, *In the menus* or *Racing*, read from the game's log.
 - **Elapsed time** since the game started.
@@ -24,7 +26,7 @@ MKW Recomp 0.1.15 · 12:34 elapsed
 
 ## Setup
 
-1. Download this repo (**Code → Download ZIP**) and extract it **inside your MKW Recomp folder**, the one with `mkw.exe`:
+1. Download `mkw-recomp-discord.zip` from the [latest release](https://github.com/Meti0X7CB/mkw-recomp-discord/releases/latest) and extract it **inside your MKW Recomp folder**, the one with `mkw.exe`:
    ```
    MKW Recomp\
      mkw.exe
